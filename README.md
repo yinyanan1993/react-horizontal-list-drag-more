@@ -12,9 +12,9 @@
 | ``dragBgColor``      | ``string``                | ``"#f5f5f5"``  | 更多滑块背景颜色                                           |
 | ``spacing``          | ``string``                | ``"16px"``     | 卡片间距                                                   |
 | ``disableDrag``      | ``boolean``               | ``false``      | 取消左滑查看                                               |
-| ***** ``list``       | ``T[]``                   |                | 卡片数据列表                                               |
-| ***** ``renderCard`` | ``(item:T)=>JSX.Element`` |                | 单个卡片的render方法                                       |
-| ***** ``onMore``     | ``()=>{}``                |                | “查看更多”回调方法                                         |
+| * ``list``       | ``T[]``                   |                | 卡片数据列表                                               |
+| * ``renderCard`` | ``(item:T)=>JSX.Element`` |                | 单个卡片的render方法                                       |
+| * ``onMore``     | ``()=>{}``                |                | “查看更多”回调方法                                         |
 
 
 ## use
